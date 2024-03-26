@@ -95,6 +95,31 @@
                 </option>
               </select>
             </div> -->
+            <div class="input-box">
+              
+              <label for="KATEGORI_OLIMPIADE" class="form-label"
+                >Kategori Olimpiade</label
+              >
+              <p>Noted : Untuk peserta MI/MIN dan MTs/MTsN hanya tersedia kategori matematika</p>
+              <select
+                type="text"
+                id="KATEGORI_OLIMPIADE"
+                name="KATEGORI_OLIMPIADE"
+                class="form-control"
+                placeholder="Pilih Kategori Olimpiade"
+                value=""
+                required
+              >
+                <option value="" >--Pilih Kategori Olimpiade--</option>
+                <option value="Biologi">Biologi</option>
+                <option value="Ekonomi">Ekonomi</option>
+                <option value="Kimia">Kimia</option>
+                <option value="Geografi">Geografi</option>
+                <option value="Matematika">Matematika</option>
+                <option value="Fisika">Fisika</option>
+              </select>
+              </select>
+            </div>
 
             <div class="input-box">
               <label for="NAMA_SEKOLAH" class="form-label"
@@ -150,6 +175,24 @@
             </div>
 
             <div class="input-box">
+              <label for="NISN_NIM" class="form-label"
+                >NISN / NIM Leader & Member Tim
+              </label>
+              <p>Noted : Masukan NISN / NIM dengan sesuai urutan nama ketua dan anggota tim, dengan format seperti berikut :</p>
+              <h6>231700</h6>
+              <h6>241700</h6>
+              <textarea
+                type="text"
+                id="NISN_NIM"
+                name="NISN_NIM"
+                class="form-control"
+                placeholder="Masukan NISN / NIM Ketua & Anggota Tim"
+                required
+              ></textarea>
+            </div>
+
+
+            <div class="input-box">
               <label for="GRADE" class="form-label">Jenjang Pendidikan </label>
               <select
                 type="text"
@@ -182,23 +225,7 @@
               />
             </div>
 
-            <div class="input-box">
-              <label for="NISN_NIM" class="form-label"
-                >NISN / NIM Leader & Member Tim
-              </label>
-              <p>Noted : Masukan NISN / NIM dengan sesuai urutan nama ketua dan anggota tim, dengan format seperti berikut :</p>
-              <h6>231700</h6>
-              <h6>241700</h6>
-              <textarea
-                type="text"
-                id="NISN_NIM"
-                name="NISN_NIM"
-                class="form-control"
-                placeholder="Masukan NISN / NIM Ketua & Anggota Tim"
-                required
-              ></textarea>
-            </div>
-
+            
             <div class="input-box">
               <label for="LEADER_EMAIL" class="form-label"
                 >Alamat Email Ketua Tim</label
